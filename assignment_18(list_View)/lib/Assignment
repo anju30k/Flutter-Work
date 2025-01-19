@@ -1,0 +1,47 @@
+import 'package:flutter/material.dart';
+
+class Assignment extends StatefulWidget {
+  const Assignment({super.key});
+
+  @override
+  State<Assignment> createState() => _ListView();
+}
+
+class _ListView extends State<Assignment> {
+
+  int count=0;
+  List<int> counterList = [];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: const Text("ListView Demo"),
+        backgroundColor: Colors.black,
+      ),
+      floatingActionButton:FloatingActionButton(
+        onPressed:(){
+          setState((){
+            count=count+1; 
+            counterList.add(count);  
+          });
+        },
+        child:const Icon(Icons.add),
+      ),
+      body: ListView.builder(
+         
+          itemCount: counterList.length,
+          itemBuilder: (context, index) {
+            return
+               Container(
+                margin: const EdgeInsets.all(20),
+                alignment:Alignment.center,
+                child: Text("${counterList[index]}"),
+                color:Colors.yellow,
+              );
+          },
+      ),  
+    );
+  }
+}

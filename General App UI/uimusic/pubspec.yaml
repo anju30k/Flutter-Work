@@ -1,0 +1,30 @@
+name: assignment_45uimusic
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  percent_indicator: ^4.2.3
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets\images\bg.png
+    - assets\images\alone.png
+    - assets\images\dead.png
+    - assets\images\heartless.png
+    - assets\images\alone (2).png
+    - assets\images\chaos.png
+    - assets\images\alones.png

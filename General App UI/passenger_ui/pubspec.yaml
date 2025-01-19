@@ -1,0 +1,49 @@
+name: passenger_ui
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  device_preview: ^1.2.0
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  sizer: ^3.0.5
+  flutter_otp_text_field: ^1.4.0+2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/Media (8) 1.png
+   - assets/Rectangle 3.png 
+   - assets/Media (14) 1.png
+   - assets/Vector 1.png
+   - assets/Ellipse 9.png
+   - assets/Isolation_Mode.png
+   - assets/Vector (3).png
+   - assets/Vector (2).png
+   - assets/Vector (1).png
+   - assets/Vector.png
+   - assets/Group 1000003219.png
+   - assets/tabler_menu-3.png
+   - assets/Rectangle 3430.png
+   - assets/Group 1000003208.png
+   - assets/sos 1.png
+   - assets/image.png
+   - assets/Vector 1.png
+   - assets/Ellipse 43 (1).png
+   - assets/Frame 39356.png
+   - assets/Vector 42.png
+   - assets/Edit Image.png
+   - assets/No data-rafiki 1.png
+   - assets/small.png
+  

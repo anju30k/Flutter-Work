@@ -1,0 +1,28 @@
+name: assignment_33
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib\image 2.png
+    - lib\Group 5314.png
+    - lib\Group 5315.png
+    - lib\Vector (Stroke).png
+    - lib\Mask group.png
+    - lib\Group 5318.png
+ 
